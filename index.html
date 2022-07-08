@@ -61,8 +61,7 @@
                 url: gpki_url,
                 type: 'GET',
                 success: function(data){
-                    let pretty = JSON.stringify(JSON.parse(data),null,2);
-                    $('#result').html(pretty)
+                    $('#result').html(data)
                 }
             })
         }) 
